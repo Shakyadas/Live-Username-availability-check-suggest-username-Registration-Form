@@ -188,8 +188,12 @@
 							{
 							  
 							  document.getElementById("per").value=document.getElementById("pres").value;
+							  document.getElementById("per").readOnly='true';
 							 
-							 
+							}
+					 	else
+							{
+							   document.getElementById("per").readOnly=false;
 							}
 					 
 						
