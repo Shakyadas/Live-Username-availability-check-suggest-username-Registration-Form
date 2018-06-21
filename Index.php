@@ -188,12 +188,13 @@
 							{
 							  
 							  document.getElementById("per").value=document.getElementById("pres").value;
-							  document.getElementById("per").readOnly='true';
+							  document.getElementById("per").readOnly=true;
 							 
 							}
 					 	else
 							{
 							   document.getElementById("per").readOnly=false;
+							   document.getElementById("per").value='';
 							}
 					 
 						
@@ -334,11 +335,12 @@
 			
 			<div class="form-group"> 
 				<div class="row" id="addr" style="display: none;">
-					 <div class="col-md-2"><label id="lpres">Present Address:<span>&#42;</span></label></div>
-                     <div class="col-md-3"><input type="text" class="form-control" id="pres" placeholder="Enter Your Present Address" name="pres" required> 
+					 <div class="col-md-2"><label id="lpres">Present Address With PinCode:<span>&#42;</span></label></div>
+                     <div class="col-md-3"><textarea class="form-control" id="pres" placeholder="Enter Your Present Address" name="pres" required> </textarea>
 					 </div>                 
-                     <div class="col-md-3 text-right"><label id="lper">Permanent Address:<span>&#42;</span></label></div>
-                     <div class="col-md-3"><input type="text" class="form-control" id="per" placeholder="Enter Your Permanent Address" name="per" required></div> 
+                     <div class="col-md-3 text-right"><label id="lper">Permanent Address With PinCode:<span>&#42;</span></label></div>
+                     <div class="col-md-3"><textarea class="form-control" id="per" placeholder="Enter Your Permanent Address" name="per" required> </textarea>
+			     </div> 
 					
 					<br><br>
 					<div class="col-md-11 text-right">
