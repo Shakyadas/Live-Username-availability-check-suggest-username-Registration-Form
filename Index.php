@@ -291,7 +291,7 @@
 				 <div class="form-group">
                		 <div class="row">
 							<div class="col-md-2 text-left">	
-								<label id="marriael" style="display: none">Meretial Status:<span>&#42;</span></label>
+								<label id="marriael" style="display: none">Marital Status:<span>&#42;</span></label>
 							</div>
 							<div class="col-md-2 text-left">
 								<select id="marriage" name="marriage" onChange="fun()" class="form-control" style="display: none; height: 35px; width: 200px;" required>
