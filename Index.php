@@ -274,7 +274,7 @@
                         </table>
 					 </div>
 					
-					 <div class="col-md-4 text-right"><label id="lphoto" style="display: none">&nbsp;&nbsp;Photo:<span>&#42;</span</label>
+					 <div class="col-md-4 text-right"><label id="lphoto" style="display: none">&nbsp;&nbsp;Photo:<span>&#42;</span></label>
 						 </div>
                     <div class="col-md-3"><input type="file" class="form-control" id="photo" name="photo" placeholder="Browse From Your PC" style="height:40px;display: none" required />
 						<label id="alertphoto" style="font-size: 10px;display: none">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Photo Size Less Than 1MB.</label>
