@@ -301,7 +301,7 @@
 							</div>
 						 
 					 	<div class="col-md-4 text-right">
-								<label id="lb1" style="display:none">Husbend's Name:</label>
+								<label id="lb1" style="display:none">Husband's Name:</label>
 								<label id="lb2" style="display:none">Wife's Name:</label>
 						</div>
 						<div class="col-md-4 text-right">
